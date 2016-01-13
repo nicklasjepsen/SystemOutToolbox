@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace SystemOut.Toolbox
+namespace SystemOut.Toolbox.Core
 {
     public static class StringExtensions
     {
