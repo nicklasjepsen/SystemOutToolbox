@@ -5,6 +5,7 @@
     "dnxcore50.app": {}
   },
   "dependencies": {
+    "CreateNewNuGetPackageFromProjectAfterEachBuild": "1.8.8",
     "Microsoft.NETCore": "5.0.0",
     "Microsoft.NETCore.Portable.Compatibility": "1.0.0"
   },
