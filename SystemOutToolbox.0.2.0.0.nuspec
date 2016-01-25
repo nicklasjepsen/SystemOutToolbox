@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SystemOutToolbox</id>
+        <version>0.2.0.0</version>
+        <title>SystemOut Toolbox</title>
+        <authors>Nicklas Møller Jepsen</authors>
+        <owners>SystemOut</owners>
+        <licenseUrl>https://github.com/nicklasjepsen/SystemOutWeatherApi/blob/master/License.txt</licenseUrl>
+        <projectUrl>https://github.com/nicklasjepsen/SystemOutToolbox</projectUrl>
+        <iconUrl>https://www.iconfinder.com/icons/532242/download/png/512</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A small toolbox - primarily used personally :)</description>
+        <releaseNotes>Added support for Classic .NET with thte capabilies that provides.</releaseNotes>
+        <copyright>Copyright SystemOut 2016</copyright>
+        <tags>Tools Extensions</tags>
+    </metadata>
+    <files>
+        <file src="SystenOut.Toolbox.Core.Classic\bin\Release\SystenOut.Toolbox.Core.Classic.dll" target="lib\net\SystenOut.Toolbox.Core.Classic.dll" />
+        <file src="SystenOut.Toolbox.Core.Classic\bin\Release\SystenOut.Toolbox.Core.Classic.pdb" target="lib\net\SystenOut.Toolbox.Core.Classic.pdb" />
+        <file src="SystemOut.Toolbox.Core\bin\Release\SystemOut.Toolbox.Core.dll" target="lib\portable-net4+win8\SystemOut.Toolbox.Core.dll" />
+        <file src="SystemOut.Toolbox.Core\bin\Release\SystemOut.Toolbox.Core.pdb" target="lib\portable-net4+win8\SystemOut.Toolbox.Core.pdb" />
+    </files>
+</package>
