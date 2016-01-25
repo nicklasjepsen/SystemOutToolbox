@@ -14,6 +14,10 @@ namespace SystenOut.Toolbox.Core.Classic
     /// </summary>
     public class SNTPProvider
     {
+        /// <summary>
+        /// Uses SNTP to get current time.
+        /// </summary>
+        /// <returns>Returns the time taken from time.windows.com in UTC.</returns>
         public static DateTime GetNetworkTime()
         {
             //default Windows time server
@@ -60,7 +64,7 @@ namespace SystenOut.Toolbox.Core.Classic
             //**UTC** time
             var networkDateTime = (new DateTime(1900, 1, 1, 0, 0, 0, DateTimeKind.Utc)).AddMilliseconds((long)milliseconds);
 
-            return networkDateTime.ToLocalTime();
+            return networkDateTime;
         }
 
         // stackoverflow.com/a/3294698/162671
